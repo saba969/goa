@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>პირველი ვებგვერდი</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+    
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        
+        .main {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            margin-right: 20px;
+        }
+
+       
+        .sidebar {
+            width: 300px;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+       
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        
+        .static-element {
+            padding: 10px;
+            background-color: lightgray;
+            margin-top: 20px;
+        }
+
+        
+        .relative-element {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        
+        .absolute-element {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: lightcoral;
+            padding: 10px;
+        }
+
+        
+        .fixed-element {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: lightseagreen;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>პირველი ვებგვერდი</h1>
+    </header>
+
+    <div class="content">
+        <div class="main">
+            <h2>მთავარი კონტენტი</h2>
+            <p>ეს არის მთავარი კონტენტი, სადაც ყველა ინფორმაცია განთავსდება. აქ გამოვიყენებთ CSS-ს სხვადასხვა პოზიციებს.</p>
+
+            <div class="static-element">
+                <h3>Static ელემენტი</h3>
+                <p>ეს ელემენტი დეფოლტურ static პოზიციაზეა და არ გადავა სხვა ადგილას.</p>
+            </div>
+
+            <div class="relative-element">
+                <h3>Relative ელემენტი</h3>
+                <p>ეს ელემენტი გადახედილია relative პოზიციაზე, ამიტომ ის გადაადგილდება 20px-ით ზემოთ და მარცხნივ.</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h2>გვერდითი პანელი</h2>
+            <p>ეს არის გვერდითი პანელი. აქ შეიძლება სხვადასხვა ინფორმაცია განთავსდეს.</p>
+        </div>
+    </div>
+
+   
+    <div class="absolute-element">
+        <h3>Absolute ელემენტი</h3>
+        <p>ეს ელემენტი აბსოლუტურ პოზიციაზეა, რომელიც მდებარეობს ამ გვერდზე მისი პირველადი კონტეინერის მიმართ.</p>
+    </div>
+
+  
+    <div class="fixed-element">
+        <h3>Fixed ელემენტი</h3>
+        <p>ეს ელემენტი ფიქსირებული პოზიციით განლაგდება და ყოველთვის იქნება გვერდის ქვედა ნაწილში, როდესაც გადაადგილდები.</p>
+    </div>
+
+    <footer>
+        <p>ეს არის ფუტერი</p>
+    </footer>
+</body>
+</html>
