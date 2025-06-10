@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ჩემი პროფილი</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+       
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            z-index: 1000; 
+        }
+
+        
+        .profile {
+            position: relative;
+            margin-top: 100px; 
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #4CAF50;
+        }
+
+       
+        .badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 50%;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        
+        .static-text {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        ჩემი პროფილი
+    </header>
+
+    
+    <div class="profile">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+        <div class="badge">3</div>
+        <h2>ნიკა ნიკოლაძე</h2>
+        <p>მოსწონს პროგრამირება და ვებ დეველოპმენტი. ამჟამად სწავლობს CSS და HTML-ს. გიყვართ კოდირება? მიყვარს!</p>
+    </div>
+
+    
+    <div class="static-text">
+        <p>ეს არის ჩვეულებრივი ტექსტი, რომელიც დარჩება დოკუმენტის ნაკადში. როცა გვერდი გადახვევა, იგი განაგრძობს პოზიციონირებას და არ განიცდის ცვლილებას.</p>
+    </div>
+</body>
+</html>

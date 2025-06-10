@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #141c2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #1e2a47;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.card__image img {
+  width: 100%;
+  height: auto;
+}
+
+.card__content {
+  padding: 2rem;
+  color: white;
+}
+
+.card__content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card__content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #a0a5b9;
+}

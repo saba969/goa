@@ -1,0 +1,15 @@
+@keyframes animation-name {
+    0% {
+      /* პირველი მდგომარეობა */
+      transform: translateX(0);
+    }
+    50% {
+      /* შუა მდგომარეობა */
+      transform: translateX(100px);
+    }
+    100% {
+      /* ბოლო მდგომარეობა */
+      transform: translateX(0);
+    }
+  }
+  

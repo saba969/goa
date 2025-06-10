@@ -1,0 +1,18 @@
+
+.first-div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px;
+    text-align: center;
+}
+
+
+.second-div {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+}
