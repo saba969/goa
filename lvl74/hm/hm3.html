@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>3x3 Grid ცენტრში</title>
+  <style>
+  
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+    }
+
+    
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 120px); 
+      grid-template-rows: repeat(3, 120px);   
+      gap: 15px; 
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .item {
+      background-color: #4a90e2;
+      color: white;
+      display: flex;
+      justify-content: center;  
+      align-items: center;     
+      font-size: 18px;
+      border-radius: 6px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="item">ტექსტი 1</div>
+    <div class="item">ტექსტი 2</div>
+    <div class="item">ტექსტი 3</div>
+    <div class="item">ტექსტი 4</div>
+    <div class="item">ტექსტი 5</div>
+    <div class="item">ტექსტი 6</div>
+    <div class="item">ტექსტი 7</div>
+    <div class="item">ტექსტი 8</div>
+    <div class="item">ტექსტი 9</div>
+  </div>
+
+</body>
+</html>

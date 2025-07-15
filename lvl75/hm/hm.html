@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Grid Layout</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f0f0f0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(5, 80px);
+      grid-template-rows: repeat(4, 80px);
+      gap: 5px;
+      background: white;
+      padding: 10px;
+      border: 1px solid #333;
+    }
+
+    /* სურათის მიხედვით წითელი ბლოკები */
+    .block1 {
+      grid-column: 3 / 6; /* 3 სვეტიდან 5 სვეტამდე */
+      grid-row: 1 / 2;    /* პირველი რიგი */
+      background: tomato;
+    }
+
+    .block2 {
+      grid-column: 3 / 5; /* 3–4 სვეტი */
+      grid-row: 3 / 5;    /* 3 და 4 რიგი */
+      background: tomato;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- ცარიელი უჯრები -->
+    <div></div><div></div>
+    <div class="block1"></div>
+    <div></div><div></div>
+
+    <div></div><div></div>
+    <div></div><div></div><div></div>
+
+    <div></div><div></div>
+    <div class="block2"></div>
+    <div></div><div></div>
+
+    <div></div><div></div>
+    <div class="block2"></div>
+    <div></div><div></div>
+  </div>
+</body>
+</html>
