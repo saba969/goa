@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #111;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-left a,
+.nav-right a {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.nav-center .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background-color: #f6f6f6;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: center;
+  min-width: 280px;
+}
+
+.hero-img img {
+  max-width: 300px;
+}
+
+
+.info {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+
+.bestsellers {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.bestsellers h2 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 16px;
+}
+
+.card p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.features {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img img {
+    max-width: 200px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

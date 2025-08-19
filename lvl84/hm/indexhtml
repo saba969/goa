@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thalby Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="#">Shop</a>
+        <a href="#">Collections</a>
+        <a href="#">Try a Free Guide</a>
+        <a href="#">Stories</a>
+      </div>
+      <div class="nav-center">
+        <span class="logo">thalby</span>
+      </div>
+      <div class="nav-right">
+        <a href="#"><img src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"/></a>
+        <a href="#"><img src="https://img.icons8.com/material-outlined/24/000000/user.png"/></a>
+        <a href="#"><img src="https://img.icons8.com/ios-glyphs/24/000000/shopping-cart.png"/></a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Fall deeper in love<br>with humanity.</h1>
+      <p>Get to know the world through our concise,<br>informative and inspiring guides.</p>
+      <button>Shop Now</button>
+    </div>
+    <div class="hero-img">
+      <img src="https://i.imgur.com/Nyx0DDJ.png" alt="Hero Books"/>
+    </div>
+  </section>
+
+  <section class="info">
+    <h2>Our guides explain countries and cultures.</h2>
+    <p>
+      Are you curious about the world around you? Our guides are for smart global citizens,
+      world travelers and engaged residents who want to gain a deeper understanding of the
+      cultures and societies they care about.<br><br>
+      Available as ebooks here and on Amazon.
+    </p>
+  </section>
+
+  <section class="bestsellers">
+    <h2>Our best sellers</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://i.imgur.com/62LdTMr.png" alt="French Culture Guide"/>
+        <h3>Thalby Guide to French Culture and Heritage</h3>
+        <p>USD 6.99</p>
+        <a href="#">Add to cart</a>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/N2oOT2k.png" alt="French People Guide"/>
+        <h3>Thalby Guide to French People and Society</h3>
+        <p>USD 6.99</p>
+        <a href="#">Add to cart</a>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/hHOv4dG.png" alt="German Culture Guide"/>
+        <h3>Thalby Guide to German Culture and Heritage</h3>
+        <p>USD 6.99</p>
+        <a href="#">Add to cart</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

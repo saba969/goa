@@ -1,0 +1,1 @@
+print("wina davalebis dasruleba romelic davasrule")

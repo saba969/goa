@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nexcent Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="https://i.imgur.com/WwzuH0a.png" alt="Nexcent Logo" />
+        <span>Nexcent</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Community</a>
+        <a href="#">Blog</a>
+        <a href="#">Pricing</a>
+      </nav>
+      <a class="btn primary" href="#">Register Now</a>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Lessons and insights<br><span class="highlight">from 8 years</span></h1>
+        <p>Where to grow your business as a photographer: site or social media?</p>
+        <a href="#" class="btn primary">Register</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://i.imgur.com/DMEyuxq.png" alt="Hero Illustration" />
+      </div>
+    </div>
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  
+  <section class="clients">
+    <div class="container clients-content">
+      <h2>Our Clients</h2>
+      <p>We have been working with some Fortune 500+ clients</p>
+      <div class="client-logos">
+        <img src="https://i.imgur.com/IXeKexm.png" alt="Client 1" />
+        <img src="https://i.imgur.com/Ozq5I4h.png" alt="Client 2" />
+        <img src="https://i.imgur.com/yFxIJd9.png" alt="Client 3" />
+        <img src="https://i.imgur.com/YtXRjcO.png" alt="Client 4" />
+        <img src="https://i.imgur.com/BGe7FO5.png" alt="Client 5" />
+        <img src="https://i.imgur.com/yFxIJd9.png" alt="Client 6" />
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
