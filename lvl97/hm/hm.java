@@ -1,0 +1,10 @@
+console.log("1. Lion");
+console.log("2. Elephant");
+console.log("3. Tiger");
+console.log("4. Giraffe");
+console.log("5. Zebra");
+console.log("6. Kangaroo");
+console.log("7. Panda");
+console.log("8. Dolphin");
+console.log("9. Eagle");
+console.log("10. Penguin");
